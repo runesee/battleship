@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="597.0" prefWidth="643.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="a20" focusTraversable="false" layoutX="15.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a21" focusTraversable="false" layoutX="66.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a22" focusTraversable="false" layoutX="118.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a30" focusTraversable="false" layoutX="16.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a32" focusTraversable="false" layoutX="118.0" layoutY="257.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a33" focusTraversable="false" layoutX="169.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a34" focusTraversable="false" layoutX="220.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a35" focusTraversable="false" layoutX="270.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a36" focusTraversable="false" layoutX="321.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a31" focusTraversable="false" layoutX="66.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a23" focusTraversable="false" layoutX="169.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a24" focusTraversable="false" layoutX="220.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a25" focusTraversable="false" layoutX="270.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a26" focusTraversable="false" layoutX="321.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a13" focusTraversable="false" layoutX="169.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a14" focusTraversable="false" layoutX="220.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a15" focusTraversable="false" layoutX="270.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a16" focusTraversable="false" layoutX="321.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a01" focusTraversable="false" layoutX="66.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a02" focusTraversable="false" layoutX="118.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a03" focusTraversable="false" layoutX="168.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a04" focusTraversable="false" layoutX="218.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a05" focusTraversable="false" layoutX="270.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a06" focusTraversable="false" layoutX="321.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a00" focusTraversable="false" layoutX="15.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a10" focusTraversable="false" layoutX="16.0" layoutY="154.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a50" focusTraversable="false" layoutX="15.0" layoutY="358.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a51" focusTraversable="false" layoutX="66.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a52" focusTraversable="false" layoutX="117.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a53" focusTraversable="false" layoutX="168.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a54" focusTraversable="false" layoutX="218.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a55" focusTraversable="false" layoutX="269.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a56" focusTraversable="false" layoutX="321.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a60" focusTraversable="false" layoutX="15.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a62" focusTraversable="false" layoutX="118.0" layoutY="410.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a63" focusTraversable="false" layoutX="169.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a64" focusTraversable="false" layoutX="219.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a65" focusTraversable="false" layoutX="270.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a66" focusTraversable="false" layoutX="321.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a61" focusTraversable="false" layoutX="66.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a40" focusTraversable="false" layoutX="16.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a42" focusTraversable="false" layoutX="117.0" layoutY="308.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a43" focusTraversable="false" layoutX="168.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a44" focusTraversable="false" layoutX="219.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a45" focusTraversable="false" layoutX="270.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a46" focusTraversable="false" layoutX="320.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a41" focusTraversable="false" layoutX="66.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Text layoutX="584.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="452.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click to place ships:" underline="true">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="ship0" layoutX="493.0" layoutY="77.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" style="-fx-background-color: darkgray;" text="2" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="ship1" layoutX="481.0" layoutY="117.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: darkgray;" text="3" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="ship2" layoutX="481.0" layoutY="156.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: darkgray;" text="3" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="ship3" layoutX="469.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: darkgray;" text="4" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="resetButton" layoutX="452.0" layoutY="292.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="131.0" style="-fx-border-color: black; -fx-background-color: orangered;" text="Reset Board">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text layoutX="24.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Battleship" underline="true">
+         <font>
+            <Font name="Impact" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="24.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setup phase">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="a12" focusTraversable="false" layoutX="118.0" layoutY="155.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="a11" focusTraversable="false" layoutX="66.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Line endX="51.5" layoutX="319.0" layoutY="154.0" startX="-303.5" />
+      <Line endX="51.5" layoutX="320.0" layoutY="103.0" startX="-305.3074035644531" />
+      <Line endX="-164.0" endY="381.0" layoutX="229.0" layoutY="79.0" startX="-163.0" startY="24.0" />
+      <Line endX="-163.0" endY="386.5" layoutX="280.0" layoutY="74.0" startX="-163.0" startY="29.0" />
+      <Line endX="-163.0" endY="388.0" layoutX="331.0" layoutY="72.0" startX="-163.0" startY="31.0" />
+      <Line endX="-163.0" endY="388.0" layoutX="382.0" layoutY="71.0" startX="-163.0" startY="33.0" />
+      <Line endX="-163.0" endY="389.0" layoutX="432.0" layoutY="70.0" startX="-163.0" startY="33.0" />
+      <Line endX="-163.0" endY="398.0" layoutX="483.0" layoutY="62.0" startX="-163.0" startY="41.5" />
+      <Line endX="-163.0" endY="397.0" layoutX="534.0" layoutY="62.0" startX="-163.0" startY="41.5" />
+      <Line endX="51.0" layoutX="320.0" layoutY="307.0" startX="-305.3074035644531" />
+      <Line endX="52.0" layoutX="320.0" layoutY="358.0" startX="-305.3074035644531" />
+      <Line endX="50.0" layoutX="320.0" layoutY="409.0" startX="-305.3074035644531" />
+      <Line endX="51.0" layoutX="320.0" layoutY="460.0" startX="-305.3074035644531" />
+      <Text layoutX="414.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What to do:" underline="true">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="548.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </Text>
+      <TextArea editable="false" layoutX="412.0" layoutY="373.0" prefHeight="186.0" prefWidth="211.0" style="-fx-border-color: black;" text="Click on the ship icons above to place a ship on the board. After choosing a ship, select the start and end points of where you would like the ship to be placed, by clicking on the board. To reset the board, click &quot;Reset Board&quot;. The game can be started by pressing &quot;Start Game&quot; once all the ships have been placed." wrapText="true">
+         <font>
+            <Font name="Impact" size="13.0" />
+         </font>
+      </TextArea>
+      <Line endX="-163.0" endY="388.0" layoutX="178.0" layoutY="72.0" startX="-163.0" startY="31.5" />
+      <Line endX="50.0" endY="1.0" layoutX="321.0" layoutY="256.0" startX="-306.0" startY="1.0" />
+      <Line endX="52.0" endY="-1.0" layoutX="319.0" layoutY="206.0" startX="-303.0" startY="-1.0" />
+      <Button fx:id="startGame" disable="true" layoutX="452.0" layoutY="252.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="131.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Start Game">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

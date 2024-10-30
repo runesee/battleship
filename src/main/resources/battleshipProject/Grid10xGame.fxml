@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="685.0" prefWidth="1110.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="c69" disable="true" focusTraversable="false" layoutX="1032.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c20" disable="true" focusTraversable="false" layoutX="574.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c21" disable="true" focusTraversable="false" layoutX="625.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c22" disable="true" focusTraversable="false" layoutX="676.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c30" disable="true" focusTraversable="false" layoutX="574.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c32" disable="true" focusTraversable="false" layoutX="677.0" layoutY="258.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c33" disable="true" focusTraversable="false" layoutX="728.0" layoutY="258.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c34" disable="true" focusTraversable="false" layoutX="779.0" layoutY="258.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c35" disable="true" focusTraversable="false" layoutX="829.0" layoutY="258.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c36" disable="true" focusTraversable="false" layoutX="879.0" layoutY="259.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c37" disable="true" focusTraversable="false" layoutX="930.0" layoutY="259.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c38" disable="true" focusTraversable="false" layoutX="981.0" layoutY="259.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c39" disable="true" focusTraversable="false" layoutX="1031.0" layoutY="259.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c31" disable="true" focusTraversable="false" layoutX="626.0" layoutY="259.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c23" disable="true" focusTraversable="false" layoutX="727.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c24" disable="true" focusTraversable="false" layoutX="778.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c25" disable="true" focusTraversable="false" layoutX="828.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c26" disable="true" focusTraversable="false" layoutX="879.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c27" disable="true" focusTraversable="false" layoutX="930.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c28" disable="true" focusTraversable="false" layoutX="981.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c29" disable="true" focusTraversable="false" layoutX="1031.0" layoutY="209.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c13" disable="true" focusTraversable="false" layoutX="727.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c14" disable="true" focusTraversable="false" layoutX="778.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c15" disable="true" focusTraversable="false" layoutX="828.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c16" disable="true" focusTraversable="false" layoutX="879.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c17" disable="true" focusTraversable="false" layoutX="930.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c18" disable="true" focusTraversable="false" layoutX="981.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c19" disable="true" focusTraversable="false" layoutX="1031.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c01" disable="true" focusTraversable="false" layoutX="625.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c02" disable="true" focusTraversable="false" layoutX="676.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c03" disable="true" focusTraversable="false" layoutX="727.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c04" disable="true" focusTraversable="false" layoutX="777.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c05" disable="true" focusTraversable="false" layoutX="828.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c06" disable="true" focusTraversable="false" layoutX="879.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c07" disable="true" focusTraversable="false" layoutX="930.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c08" disable="true" focusTraversable="false" layoutX="981.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c09" disable="true" focusTraversable="false" layoutX="1031.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c00" disable="true" focusTraversable="false" layoutX="574.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c10" disable="true" focusTraversable="false" layoutX="574.0" layoutY="156.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c90" disable="true" focusTraversable="false" layoutX="574.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c92" disable="true" focusTraversable="false" layoutX="676.0" layoutY="564.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c93" disable="true" focusTraversable="false" layoutX="728.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c94" disable="true" focusTraversable="false" layoutX="779.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c95" disable="true" focusTraversable="false" layoutX="829.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c96" disable="true" focusTraversable="false" layoutX="880.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c97" disable="true" focusTraversable="false" layoutX="931.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c98" disable="true" focusTraversable="false" layoutX="982.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c99" disable="true" focusTraversable="false" layoutX="1032.0" layoutY="564.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c91" disable="true" focusTraversable="false" layoutX="625.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c80" disable="true" focusTraversable="false" layoutX="574.0" layoutY="514.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c82" disable="true" focusTraversable="false" layoutX="677.0" layoutY="513.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c83" disable="true" focusTraversable="false" layoutX="728.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c86" disable="true" focusTraversable="false" layoutX="880.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c87" disable="true" focusTraversable="false" layoutX="931.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c88" disable="true" focusTraversable="false" layoutX="982.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c89" disable="true" focusTraversable="false" layoutX="1032.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c81" disable="true" focusTraversable="false" layoutX="626.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c70" disable="true" focusTraversable="false" layoutX="574.0" layoutY="463.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c71" disable="true" focusTraversable="false" layoutX="625.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c72" disable="true" focusTraversable="false" layoutX="677.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c73" disable="true" focusTraversable="false" layoutX="728.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c74" disable="true" focusTraversable="false" layoutX="779.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c75" disable="true" focusTraversable="false" layoutX="829.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c76" disable="true" focusTraversable="false" layoutX="880.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c77" disable="true" focusTraversable="false" layoutX="931.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c78" disable="true" focusTraversable="false" layoutX="982.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c79" disable="true" focusTraversable="false" layoutX="1032.0" layoutY="462.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c50" disable="true" focusTraversable="false" layoutX="574.0" layoutY="361.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c51" disable="true" focusTraversable="false" layoutX="625.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c52" disable="true" focusTraversable="false" layoutX="677.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c53" disable="true" focusTraversable="false" layoutX="728.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c54" disable="true" focusTraversable="false" layoutX="778.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c55" disable="true" focusTraversable="false" layoutX="829.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c56" disable="true" focusTraversable="false" layoutX="880.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c57" disable="true" focusTraversable="false" layoutX="931.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c58" disable="true" focusTraversable="false" layoutX="982.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c59" disable="true" focusTraversable="false" layoutX="1032.0" layoutY="360.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c60" disable="true" focusTraversable="false" layoutX="574.0" layoutY="412.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c62" disable="true" focusTraversable="false" layoutX="677.0" layoutY="411.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c63" disable="true" focusTraversable="false" layoutX="728.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c64" disable="true" focusTraversable="false" layoutX="779.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c65" disable="true" focusTraversable="false" layoutX="829.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c66" disable="true" focusTraversable="false" layoutX="880.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c67" disable="true" focusTraversable="false" layoutX="931.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c68" disable="true" focusTraversable="false" layoutX="982.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c61" disable="true" focusTraversable="false" layoutX="625.0" layoutY="411.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c85" disable="true" focusTraversable="false" layoutX="829.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c84" disable="true" focusTraversable="false" layoutX="779.0" layoutY="513.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c40" disable="true" focusTraversable="false" layoutX="574.0" layoutY="310.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c42" disable="true" focusTraversable="false" layoutX="676.0" layoutY="309.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c43" disable="true" focusTraversable="false" layoutX="727.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c44" disable="true" focusTraversable="false" layoutX="777.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c45" disable="true" focusTraversable="false" layoutX="829.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c46" disable="true" focusTraversable="false" layoutX="880.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c47" disable="true" focusTraversable="false" layoutX="931.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c48" disable="true" focusTraversable="false" layoutX="982.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c49" disable="true" focusTraversable="false" layoutX="1032.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c41" disable="true" focusTraversable="false" layoutX="625.0" layoutY="309.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c12" disable="true" focusTraversable="false" layoutX="676.0" layoutY="157.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="c11" disable="true" focusTraversable="false" layoutX="625.0" layoutY="157.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0; -fx-background-color: darkgray;" />
+      <Button fx:id="b69" focusTraversable="false" layoutX="473.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b20" focusTraversable="false" layoutX="16.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b21" focusTraversable="false" layoutX="67.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b22" focusTraversable="false" layoutX="118.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b30" focusTraversable="false" layoutX="16.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b32" focusTraversable="false" layoutX="118.0" layoutY="257.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b33" focusTraversable="false" layoutX="169.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b34" focusTraversable="false" layoutX="220.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b35" focusTraversable="false" layoutX="270.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b36" focusTraversable="false" layoutX="321.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b37" focusTraversable="false" layoutX="372.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b38" focusTraversable="false" layoutX="423.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b39" focusTraversable="false" layoutX="473.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b31" focusTraversable="false" layoutX="67.0" layoutY="257.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b23" focusTraversable="false" layoutX="169.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b24" focusTraversable="false" layoutX="220.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b25" focusTraversable="false" layoutX="270.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b26" focusTraversable="false" layoutX="321.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b27" focusTraversable="false" layoutX="372.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b28" focusTraversable="false" layoutX="423.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b29" focusTraversable="false" layoutX="473.0" layoutY="206.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b13" focusTraversable="false" layoutX="169.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b14" focusTraversable="false" layoutX="220.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b15" focusTraversable="false" layoutX="270.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b16" focusTraversable="false" layoutX="321.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b17" focusTraversable="false" layoutX="372.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b18" focusTraversable="false" layoutX="422.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b19" focusTraversable="false" layoutX="473.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b01" focusTraversable="false" layoutX="66.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b02" focusTraversable="false" layoutX="118.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b03" focusTraversable="false" layoutX="168.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b04" focusTraversable="false" layoutX="219.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b05" focusTraversable="false" layoutX="270.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b06" focusTraversable="false" layoutX="321.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b07" focusTraversable="false" layoutX="372.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b08" focusTraversable="false" layoutX="423.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b09" focusTraversable="false" layoutX="473.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b00" focusTraversable="false" layoutX="15.0" layoutY="103.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b10" focusTraversable="false" layoutX="16.0" layoutY="154.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b90" focusTraversable="false" layoutX="15.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b92" focusTraversable="false" layoutX="117.0" layoutY="563.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b93" focusTraversable="false" layoutX="168.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b94" focusTraversable="false" layoutX="219.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b95" focusTraversable="false" layoutX="269.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b96" focusTraversable="false" layoutX="320.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b97" focusTraversable="false" layoutX="371.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b98" focusTraversable="false" layoutX="422.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b99" focusTraversable="false" layoutX="473.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b91" focusTraversable="false" layoutX="66.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b80" focusTraversable="false" layoutX="15.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b82" focusTraversable="false" layoutX="118.0" layoutY="512.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b83" focusTraversable="false" layoutX="168.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b86" focusTraversable="false" layoutX="320.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b87" focusTraversable="false" layoutX="371.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b88" focusTraversable="false" layoutX="422.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b89" focusTraversable="false" layoutX="473.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b81" focusTraversable="false" layoutX="67.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b70" focusTraversable="false" layoutX="15.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b71" focusTraversable="false" layoutX="66.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b72" focusTraversable="false" layoutX="118.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b73" focusTraversable="false" layoutX="168.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b74" focusTraversable="false" layoutX="219.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b75" focusTraversable="false" layoutX="270.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b76" focusTraversable="false" layoutX="321.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b77" focusTraversable="false" layoutX="372.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b78" focusTraversable="false" layoutX="422.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b79" focusTraversable="false" layoutX="473.0" layoutY="461.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b50" focusTraversable="false" layoutX="15.0" layoutY="358.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b51" focusTraversable="false" layoutX="66.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b52" focusTraversable="false" layoutX="117.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b53" focusTraversable="false" layoutX="168.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b54" focusTraversable="false" layoutX="218.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b55" focusTraversable="false" layoutX="269.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b56" focusTraversable="false" layoutX="320.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b57" focusTraversable="false" layoutX="371.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b58" focusTraversable="false" layoutX="422.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b59" focusTraversable="false" layoutX="472.0" layoutY="359.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b60" focusTraversable="false" layoutX="15.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b62" focusTraversable="false" layoutX="118.0" layoutY="410.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b63" focusTraversable="false" layoutX="169.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b64" focusTraversable="false" layoutX="219.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b65" focusTraversable="false" layoutX="270.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b66" focusTraversable="false" layoutX="321.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b67" focusTraversable="false" layoutX="371.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b68" focusTraversable="false" layoutX="422.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b61" focusTraversable="false" layoutX="66.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b85" focusTraversable="false" layoutX="269.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b84" focusTraversable="false" layoutX="219.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b40" focusTraversable="false" layoutX="16.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b42" focusTraversable="false" layoutX="117.0" layoutY="308.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b43" focusTraversable="false" layoutX="168.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b44" focusTraversable="false" layoutX="219.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b45" focusTraversable="false" layoutX="269.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b46" focusTraversable="false" layoutX="320.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b47" focusTraversable="false" layoutX="371.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b48" focusTraversable="false" layoutX="422.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b49" focusTraversable="false" layoutX="473.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b41" focusTraversable="false" layoutX="66.0" layoutY="308.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Text layoutX="584.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="24.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Battleship" underline="true">
+         <font>
+            <Font name="Impact" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="225.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enemy Fleet" underline="true">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="b12" focusTraversable="false" layoutX="118.0" layoutY="155.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="b11" focusTraversable="false" layoutX="67.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Line endX="204.0" layoutX="319.0" layoutY="154.0" startX="-303.5" />
+      <Line endX="203.0" endY="-0.5" layoutX="320.0" layoutY="103.0" startX="-305.3074035644531" />
+      <Line endX="-163.0" endY="534.0" layoutX="229.0" layoutY="79.0" startX="-163.0" startY="24.0" />
+      <Line endX="203.5" layoutX="320.0" layoutY="613.0" startX="-305.3074035644531" />
+      <Line endX="201.5" layoutX="321.0" layoutY="256.0" startX="-306.0" startY="1.0" />
+      <Line endX="-163.0" endY="539.0" layoutX="280.0" layoutY="74.0" startX="-163.0" startY="29.0" />
+      <Line endX="-163.0" endY="541.0" layoutX="331.0" layoutY="72.0" startX="-163.0" startY="31.0" />
+      <Line endX="-163.0" endY="542.0" layoutX="382.0" layoutY="71.0" startX="-163.0" startY="33.0" />
+      <Line endX="-163.0" endY="542.5" layoutX="432.0" layoutY="70.0" startX="-163.0" startY="33.0" />
+      <Line endX="-163.0" endY="550.5" layoutX="483.0" layoutY="62.0" startX="-163.0" startY="41.5" />
+      <Line endX="-163.0" endY="551.0" layoutX="534.0" layoutY="62.0" startX="-163.0" startY="41.5" />
+      <Line endX="-163.0" endY="551.0" layoutX="585.0" layoutY="62.0" startX="-163.0" startY="41.5" />
+      <Line endX="203.0" layoutX="320.0" layoutY="307.0" startX="-305.3074035644531" />
+      <Line endX="202.0" layoutX="320.0" layoutY="358.0" startX="-305.3074035644531" />
+      <Line endX="202.5" layoutX="320.0" layoutY="409.0" startX="-305.3074035644531" />
+      <Line endX="203.0" layoutX="320.0" layoutY="460.0" startX="-305.3074035644531" />
+      <Line endX="202.0" layoutX="320.0" layoutY="511.0" startX="-305.3074035644531" />
+      <Line endX="202.5" layoutX="320.0" layoutY="562.0" startX="-305.3074035644531" />
+      <Line endX="-163.0" endY="541.0" layoutX="178.0" layoutY="72.0" startX="-163.0" startY="31.5" />
+      <Text layoutX="548.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </Text>
+      <Line endX="-163.0" endY="546.0" layoutX="686.0" layoutY="67.0" startX="-163.0" startY="36.0" />
+      <Line endX="204.0" layoutX="319.0" layoutY="206.0" startX="-303.0" startY="-1.0" />
+      <Line endX="-163.0" endY="550.5" layoutX="635.0" layoutY="62.0" startX="-163.0" startY="41.5" />
+      <Line endX="203.0" endY="-0.5" layoutX="879.0" layoutY="104.0" startX="-305.3074035644531" />
+      <Line endX="-163.0" endY="546.0" layoutX="1245.0" layoutY="68.0" startX="-163.0" startY="36.0" />
+      <Text layoutX="788.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Fleet" underline="true">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="204.0" layoutX="878.0" layoutY="155.0" startX="-303.5" />
+      <Line endX="-163.0" endY="534.0" layoutX="788.0" layoutY="80.0" startX="-163.0" startY="24.0" />
+      <Line endX="201.5" layoutX="880.0" layoutY="257.0" startX="-306.0" startY="1.0" />
+      <Line endX="-163.0" endY="539.0" layoutX="839.0" layoutY="75.0" startX="-163.0" startY="29.0" />
+      <Line endX="-163.0" endY="541.0" layoutX="890.0" layoutY="73.0" startX="-163.0" startY="31.0" />
+      <Line endX="-163.0" endY="542.0" layoutX="941.0" layoutY="72.0" startX="-163.0" startY="33.0" />
+      <Line endX="-163.0" endY="542.5" layoutX="991.0" layoutY="71.0" startX="-163.0" startY="33.0" />
+      <Line endX="-163.0" endY="550.5" layoutX="1042.0" layoutY="63.0" startX="-163.0" startY="41.5" />
+      <Line endX="-163.0" endY="551.0" layoutX="1093.0" layoutY="63.0" startX="-163.0" startY="41.5" />
+      <Line endX="-163.0" endY="551.0" layoutX="1144.0" layoutY="63.0" startX="-163.0" startY="41.5" />
+      <Line endX="203.0" layoutX="879.0" layoutY="308.0" startX="-305.3074035644531" />
+      <Line endX="202.0" layoutX="879.0" layoutY="359.0" startX="-305.3074035644531" />
+      <Line endX="202.5" layoutX="879.0" layoutY="410.0" startX="-305.3074035644531" />
+      <Line endX="203.0" layoutX="879.0" layoutY="461.0" startX="-305.3074035644531" />
+      <Line endX="202.0" layoutX="879.0" layoutY="512.0" startX="-305.3074035644531" />
+      <Line endX="202.5" layoutX="879.0" layoutY="563.0" startX="-305.3074035644531" />
+      <Line endX="-163.0" endY="540.5" layoutX="737.0" layoutY="73.0" startX="-163.0" startY="31.5" />
+      <Line endX="204.0" layoutX="878.0" layoutY="207.0" startX="-303.0" startY="-1.0" />
+      <Line endX="-163.0" endY="550.5" layoutX="1194.0" layoutY="63.0" startX="-163.0" startY="41.5" />
+      <Line endX="213.5" layoutX="869.0" layoutY="614.0" startX="-294.5" />
+      <Text fx:id="winner" layoutX="521.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winner: " textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="shootButton" disable="true" layoutX="452.0" layoutY="619.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="71.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Shoot">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="rounds" layoutX="15.0" layoutY="647.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total shots: 0">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="saveButton" layoutX="973.0" layoutY="619.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="107.0" style="-fx-border-color: black; -fx-background-color: lightgreen;" text="Save game">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
