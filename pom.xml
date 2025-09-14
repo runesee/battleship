@@ -13,6 +13,12 @@
 
    <dependencies>
 
+	<dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>17.0.13</version>
+    </dependency>
+
  	<dependency>
 		<groupId>org.openjfx</groupId>
 	  <artifactId>javafx-fxml</artifactId>
@@ -51,7 +57,14 @@
 			  <argLine>--enable-preview</argLine>
 		  </configuration>
 	  </plugin>
-
+	  		<plugin>
+    			<groupId>org.openjfx</groupId>
+    			<artifactId>javafx-maven-plugin</artifactId>
+    			<version>0.0.8</version>
+    			<configuration>
+        			<mainClass>battleshipProject.BattleshipProjectApp</mainClass>
+   	 			</configuration>
+			</plugin>
 	</plugins>
   </build>
 </project>
